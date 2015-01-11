@@ -26,7 +26,7 @@ public class EditItemActivity extends Activity {
         etItem.setSelection(etItem.getText().length());
         etItem.setFocusable(true);
 
-        Toast.makeText(this, editItemText + "-" + editItemPos, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, editItemText + "-" + editItemPos, Toast.LENGTH_SHORT).show();
     }
 
     public void onSave(View v) {

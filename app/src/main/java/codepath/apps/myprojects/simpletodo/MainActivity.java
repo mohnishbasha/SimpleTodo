@@ -98,7 +98,7 @@ public class MainActivity extends ActionBarActivity {
     private void readItems() {
         File filesDir = getFilesDir();
         File todoFile = new File(filesDir, "todo.txt");
-        Toast.makeText(this, todoFile.getAbsolutePath(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, todoFile.getAbsolutePath(), Toast.LENGTH_SHORT).show();
 
         try {
             items = new ArrayList<String>(FileUtils.readLines(todoFile));
@@ -129,6 +129,7 @@ public class MainActivity extends ActionBarActivity {
         itemsAdapter.add(itemText);
         itemsAdapter.notifyDataSetChanged();
         writeItems();
+        etNewItem.setText("");
 
     }
 
