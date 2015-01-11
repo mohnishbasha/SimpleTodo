@@ -16,6 +16,15 @@ Current features include: <br>
 - Edit a ToDo Item. <br>
 - Delete a ToDo Item. <br>
 - ToDo Items persists in a file. <br>
+- Total time taken 4 hrs.
+</p>
+
+<p>
+To Do: <br>
+(TBD) Persist the todo items into SQLite instead of a text file <br>
+(TBD) Improve style of the todo items in the list using a custom adapter <br>
+(TBD) Add support for completion due dates for todo items (and display within listview item) <br>
+(TBD) Use a DialogFragment instead of new Activity for editing items <br>
 </p>
 
 <p>
